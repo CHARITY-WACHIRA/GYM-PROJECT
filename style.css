@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    color:white;
+    font-size: x-large;
+    font-family: fantasy;   
+}
+
+h3 {
+    text-align: center;
+    color: azure;
+}
+
+.header {
+    padding: 60px;
+    background-color: blueviolet;
+}
+
+#home {
+    background-image: url(background.jpeg);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: #fff; 
+    margin: 10px;
+    list-style: none;
+}
+
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#introduction {
+    color: white;
+}
+#secondphase{
+    color: white;
+}
+  
+
+#thirdphase {
+    
+    color: white;
+}
+#fourthphase {
+    
+    color:white ;
+}
+body {
+    background-image: url(black.jpeg);
+
+}
+#About {
+    background-image: url(black.jpeg);
+}
+.imgMain {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.uniqueheading {
+    color: red;
+    text-align: left;
+    font-size: xx-large;
+}
+#charge1 {
+    border: 4px solid;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float:left;
+    width:33.33%;
+    padding: 5px;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+ 
+
+ 
+
+    
+
+

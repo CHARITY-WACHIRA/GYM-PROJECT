@@ -43,6 +43,28 @@ nav {
     text-decoration: none;
 }
 
+/* HEAD SECTION */
+.head-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BODY STYLES */
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    padding: 20px;
+}
+
+.row img {
+    width: 400px;
+}
 #introduction {
     color: white;
 }
@@ -82,7 +104,7 @@ body {
 * {
     box-sizing: border-box;
 }
-.column {
+/* .column {
     float:left;
     width:33.33%;
     padding: 5px;
@@ -92,7 +114,7 @@ body {
     display:table;
     clear:both;
 
-}
+} */
 
  
 

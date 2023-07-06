@@ -1,37 +1,32 @@
-{
-  "Monday": 
+[
   {
-    "id":1,
-    "day":"Monday",
-    "class":"Toning",
-    "time":"5:00pm-6:00pm"
-  }, 
-  "Tuesday": 
-  {
-    "id":1,
-    "day":"Monday",
-    "class":"Toning",
-    "time":"5:00pm-6:00pm"
-  }, 
-  "Wednesday": 
-  {
-    "id":1,
-    "day":"Monday",
-    "class":"Toning",
-    "time":"5:00pm-6:00pm"
+    "id": 1,
+    "day": "Monday",
+    "class": "Strength Training",
+    "time": "9:00am-10:00am"
   },
-  "Thursday": 
   {
-    "id":1,
-    "day":"Monday",
-    "class":"Toning",
-    "time":"5:00pm-6:00pm"
+    "id": 2,
+    "day": "Tuesday",
+    "class": "Cardio Kickboxing",
+    "time": "6:00pm-7:00pm"
   },
-  "Friday": 
   {
-    "id":1,
-    "day":"Monday",
-    "class":"Toning",
-    "time":"5:00pm-6:00pm"
+    "id": 3,
+    "day": "Wednesday",
+    "class": "Yoga",
+    "time": "10:30am-11:30am"
+  },
+  {
+    "id": 4,
+    "day": "Thursday",
+    "class": "CrossFit",
+    "time": "5:30pm-6:30pm"
+  },
+  {
+    "id": 5,
+    "day": "Friday",
+    "class": "HIIT",
+    "time": "8:00am-9:00am"
   }
-}
+]

@@ -1,8 +1,37 @@
 {
-    "days of the week":[
+  "Monday": 
   {
     "id":1,
-    "title":
-  }      
-
+    "day":"Monday",
+    "class":"Toning",
+    "time":"5:00pm-6:00pm"
+  }, 
+  "Tuesday": 
+  {
+    "id":1,
+    "day":"Monday",
+    "class":"Toning",
+    "time":"5:00pm-6:00pm"
+  }, 
+  "Wednesday": 
+  {
+    "id":1,
+    "day":"Monday",
+    "class":"Toning",
+    "time":"5:00pm-6:00pm"
+  },
+  "Thursday": 
+  {
+    "id":1,
+    "day":"Monday",
+    "class":"Toning",
+    "time":"5:00pm-6:00pm"
+  },
+  "Friday": 
+  {
+    "id":1,
+    "day":"Monday",
+    "class":"Toning",
+    "time":"5:00pm-6:00pm"
+  }
 }

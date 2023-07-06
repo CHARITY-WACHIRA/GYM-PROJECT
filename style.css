@@ -93,6 +93,30 @@ nav {
 }
 
 /* Our services */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services h3 {
+    font-size: 30px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content {
+    color: #fff;
+}
+
+/* pricing */
+
 
 #introduction {
     color: white;

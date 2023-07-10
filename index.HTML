@@ -26,7 +26,7 @@
                     <a href="#">PROGRAM</a>
                 </li>
                 <li class="nav-link">
-                    <a href="#">CONTACT</a>
+                    <a href="#">REGISTRATION</a>
                 </li>
             </ul>
         
@@ -142,7 +142,7 @@
             
             <div class="charges">
                 <h5>1 Month</h5>
-                <h5>3000/=(students)</h5>
+                <h5>3000/=( lower-class-students)</h5>
                 <ol>
                     <li>free riding</li>
                     <li>unlimited equipment</li>
@@ -183,54 +183,38 @@
 
 
     </section>
-    <section>
-        <h3>Contact US</h3>
+    
+        
 
-    </section>
-
+    
     <div class="container">
-        <div class="header">
-            <h3>Create Account</h3>
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
             </div>
-            <form class="form"id="form">
-    <div class="form-control">
-        <label>Username</label>
-        <input type="text"placeholder="floripop17"
-    id="usename">
-        <i class="gym-check-circle"></i>
-        <i class="gym-exclamation-circle"></i>
-        <small>Error message</small>
-        </div>
-
-        <div class="form-control">
-            <label>Email</label>
-            <input type=""placeholder="yahoo@floripop.com"
-        id="email">
-            <i class="gym-check-circle"></i>
-            <i class="gym-exclamation-circle"></i>
-            <small>Error message</small>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
             </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
 
-            <div class="form-control">
-                <label>password</label>
-                <input type="password"placeholder="Password"
-            id="password">
-                <i class="gym-check-circle"></i>
-                <i class="gym-exclamation-circle"></i>
-                <small>Error message</small>
-                </div>
-                <div class="form-control">
-                    <label>Password check</label>
-                    <input type="password"placeholder="password two"
-                id="password2">
-                    <i class="gym-check-circle"></i>
-                    <i class="gym-exclamation-circle"></i>
-                    <small>Error message</small>
-                    </div>
-                    
-                 <button>Submit</button>   
-              </form>   
-            </div>  
+   
 
 
     <script src="index.js"></script>
